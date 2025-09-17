@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes - BDR Vertical</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+</head>
+<body>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+        <div class="lightbox-nav">
+            <button class="lightbox-prev" id="lightbox-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-next" id="lightbox-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Botones flotantes de redes sociales -->
+    <div class="social-floating">
+        <a href="https://www.instagram.com/bdrvertical/" class="instagram-btn" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/34643838253" class="whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <!-- Sidebar -->
+    <button class="sidebar-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <a href="index.html" class="logo">BDR <span>Vertical</span></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="index.html#servicios"><i class="fas fa-tools"></i> Servicios</a></li>
+                <li><a href="index.html#galeria"><i class="fas fa-images"></i> Galería</a></li>
+                <li><a href="index.html#sobre"><i class="fas fa-users"></i> Sobre Nosotros</a></li>
+                <li><a href="index.html#horario"><i class="fas fa-clock"></i> Horario</a></li>
+                <li><a href="index.html#faq"><i class="fas fa-question-circle"></i> FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">BDR <span>Vertical</span></a>
+            </div>
+        </div>
+    </header>
+    <!-- Sección Hero/Inicio -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Galería de Imágenes</h1>
+            <p>Descubre algunos de nuestros trabajos en Madrid y ciudades vecinas.</p>
+            <a href="https://wa.me/34643838253" class="btn">Solicitar Presupuesto</a>
+        </div>
+    </section>
+    <!-- Sección Galería -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Nuestros Trabajos</h2>
+            <!-- Galería de imágenes -->
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="0">
+                    <img src="slides/1/1.jpeg" alt="Restauración de cornisa" class="active">
+                    <img src="slides/1/2.jpeg" alt="Restauración de cornisa">
+                    <img src="slides/1/3.jpeg" alt="Restauración de cornisa">
+                    <img src="slides/1/4.jpeg" alt="Restauración de cornisa">
+                    <img src="slides/1/5.jpeg" alt="Restauración de cornisa">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Restauración de cornisa</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="1">
+                    <img src="slides/2/1.jpeg" alt="Limpieza de canalón" class="active">
+                    <img src="slides/2/2.jpeg" alt="Limpieza de canalón">
+                    <img src="slides/2/3.jpeg" alt="Limpieza de canalón">
+                    <img src="slides/2/4.jpeg" alt="Limpieza de canalón">
+                    <img src="slides/2/5.jpeg" alt="Limpieza de canalón">
+                    <img src="slides/2/6.jpeg" alt="Limpieza de canalón">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Limpieza de canalón</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="2">
+                    <img src="slides/3/1.jpeg" alt="Cambio tubo salida de humo" class="active">
+                    <img src="slides/3/2.jpeg" alt="Cambio tubo salida de humo">
+                    <img src="slides/3/3.jpeg" alt="Cambio tubo salida de humo">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Cambio tubo salida de humo</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="3">
+                    <img src="slides/4/1.jpeg" alt="Restauración y pintura patio de luces" class="active">
+                    <img src="slides/4/2.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/4/3.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/4/4.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/4/5.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/4/6.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/4/7.jpeg" alt="Restauración y pintura patio de luces">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Restauración y pintura patio de luces</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="4">
+                    <img src="slides/5/1.jpeg" alt="Restauración y pintura de patios" class="active">
+                    <img src="slides/5/2.jpeg" alt="Restauración y pintura de patios">
+                    <img src="slides/5/3.jpeg" alt="RRestauración y pintura de patios">
+                    <img src="slides/5/4.jpeg" alt="Restauración y pintura de patios">
+                    <img src="slides/5/5.jpeg" alt="Restauración y pintura de patios">
+                    <img src="slides/5/6.jpeg" alt="Restauración y pintura de patios">
+                    <img src="slides/5/7.jpeg" alt="Restauración y pintura de patios">
+                    <img src="slides/5/8.jpeg" alt="Restauración y pintura de patios">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Restauración y pintura de patios</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="4">
+                    <img src="slides/6/1.jpeg" alt="Restauración y pintura patio de luces" class="active">
+                    <img src="slides/6/2.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/6/3.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/6/4.jpeg" alt="Restauración y pintura patio de luces">
+                    <img src="slides/6/5.jpeg" alt="Restauración y pintura patio de luces">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Restauración y pintura patio de luces</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="4">
+                    <img src="slides/7/1.jpeg" alt="Sustitución del bajante de amianto por uno de PVC" class="active">
+                    <img src="slides/7/2.jpeg" alt="Sustitución del bajante de amianto por uno de PVC">
+                    <img src="slides/7/3.jpeg" alt="Sustitución del bajante de amianto por uno de PVC">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Sustitución del bajante de amianto por uno de PVC</p>
+            </div>
+
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="4">
+                    <img src="slides/8/1.jpeg" alt="Instalación de canaleta para tubos de ar acondicionado" class="active">
+                    <img src="slides/8/2.jpeg" alt="Instalación de canaleta para tubos de ar acondicionado">
+                    <img src="slides/8/3.jpeg" alt="Instalación de canaleta para tubos de ar acondicionado">
+                    <img src="slides/8/4.jpeg" alt="Instalación de canaleta para tubos de ar acondicionado">
+                    <img src="slides/8/5.jpeg" alt="Instalación de canaleta para tubos de ar acondicionado">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Instalación de canaleta para tubos de ar acondicionado</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="4">
+                    <img src="slides/9/1.jpeg" alt="Mantenimiento y Impermeabilización de chimenea" class="active">
+                    <img src="slides/9/2.jpeg" alt="Mantenimiento y Impermeabilización de chimenea">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Mantenimiento y Impermeabilización de chimenea</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="4">
+                    <img src="slides/10/1.jpeg" alt="Tarima exterior" class="active">
+                    <img src="slides/10/2.jpeg" alt="Tarima exterior">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Tarima exterior</p>
+            </div>
+
+            <div class="gallery-slide">
+                <div class="gallery-slide-images" data-slide-index="4">
+                    <img src="slides/11/1.jpeg" alt="Tarima interior" class="active">
+                    <img src="slides/11/2.jpeg" alt="Tarima interior">
+                    <img src="slides/11/3.jpeg" alt="Tarima interior">
+                    <div class="carousel-nav">
+                        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p>Tarima interior</p>
+            </div>
+
+
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="index.html" class="btn">Volver al Inicio</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BDR Vertical</h3>
+                    <p>Especialistas en rehabilitación y pintura con más de 4 años de experiencia transformando fachadas y espacios.</p>
+                </div>
+              
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-phone"></i> +34643838253</p>
+                </div>
+              
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html#inicio">Inicio</a></li>
+                        <li><a href="index.html#servicios">Servicios</a></li>
+                        <li><a href="index.html#galeria">Galería</a></li>
+                        <li><a href="index.html#sobre">Sobre Nosotros</a></li>
+                        <li><a href="index.html#horario">Horario</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+          
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> BDR Vertical. Todos los derechos reservados.</p>
+                Guara Business Technologies
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Funcionalidad para el sidebar
+        document.querySelector('.sidebar-toggle').addEventListener('click', function() {
+            document.querySelector('.sidebar').classList.toggle('active');
+        });
+      
+        // Funcionalidad para el carrusel de imágenes
+        document.querySelectorAll('.gallery-slide').forEach(slide => {
+            const images = slide.querySelectorAll('img');
+            const prevBtn = slide.querySelector('.prev');
+            const nextBtn = slide.querySelector('.next');
+            let currentIndex = 0;
+          
+            function showImage(index) {
+                images.forEach(img => img.classList.remove('active'));
+                images[index].classList.add('active');
+            }
+          
+            if (prevBtn && nextBtn) {
+                prevBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    currentIndex = (currentIndex - 1 + images.length) % images.length;
+                    showImage(currentIndex);
+                });
+              
+                nextBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    currentIndex = (currentIndex + 1) % images.length;
+                    showImage(currentIndex);
+                });
+            }
+        });
+      
+        // Smooth scrolling para los enlaces del menú
+        document.querySelectorAll('.sidebar a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (this.getAttribute('href').includes('#')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    if (targetSection) {
+                        window.scrollTo({
+                            top: targetSection.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+                document.querySelector('.sidebar').classList.remove('active');
+            });
+        });
+      
+        // Actualizar el año en el footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.getElementById('lightbox-caption');
+        const lightboxClose = document.getElementById('lightbox-close');
+        const lightboxPrev = document.getElementById('lightbox-prev');
+        const lightboxNext = document.getElementById('lightbox-next');
+
+        let currentSlideIndex = 0;
+        let currentImageIndex = 0;
+        let allImages = [];
+
+        // Collect all images from all slides
+        document.querySelectorAll('.gallery-slide-images').forEach((slide, slideIndex) => {
+            const images = slide.querySelectorAll('img');
+            images.forEach((img, imgIndex) => {
+                allImages.push({
+                    src: img.src,
+                    alt: img.alt,
+                    slideIndex: slideIndex,
+                    imgIndex: imgIndex
+                });
+            });
+
+            // Add click event to open lightbox
+            slide.addEventListener('click', function() {
+                const activeImg = this.querySelector('img.active');
+                const imgIndex = Array.from(this.querySelectorAll('img')).indexOf(activeImg);
+                
+                openLightbox(slideIndex, imgIndex);
+            });
+        });
+
+        function openLightbox(slideIndex, imgIndex) {
+            currentSlideIndex = slideIndex;
+            currentImageIndex = imgIndex;
+            
+            const imageData = allImages.find(img => 
+                img.slideIndex === slideIndex && img.imgIndex === imgIndex
+            );
+            
+            if (imageData) {
+                lightboxImg.src = imageData.src;
+                lightboxCaption.textContent = imageData.alt;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling when lightbox is open
+            }
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = ''; // Re-enable scrolling
+        }
+
+        function navigateLightbox(direction) {
+            let newIndex = currentImageIndex + direction;
+            const currentSlideImages = allImages.filter(img => img.slideIndex === currentSlideIndex);
+            
+            if (newIndex < 0) {
+                // Go to previous slide
+                if (currentSlideIndex > 0) {
+                    currentSlideIndex--;
+                    const prevSlideImages = allImages.filter(img => img.slideIndex === currentSlideIndex);
+                    newIndex = prevSlideImages.length - 1;
+                } else {
+                    newIndex = 0; // Stay at first image
+                }
+            } else if (newIndex >= currentSlideImages.length) {
+                // Go to next slide
+                if (currentSlideIndex < allImages[allImages.length - 1].slideIndex) {
+                    currentSlideIndex++;
+                    newIndex = 0;
+                } else {
+                    newIndex = currentSlideImages.length - 1; // Stay at last image
+                }
+            }
+            
+            currentImageIndex = newIndex;
+            const imageData = allImages.find(img => 
+                img.slideIndex === currentSlideIndex && img.imgIndex === currentImageIndex
+            );
+            
+            if (imageData) {
+                lightboxImg.src = imageData.src;
+                lightboxCaption.textContent = imageData.alt;
+            }
+        }
+
+        // Event listeners for lightbox
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navigateLightbox(-1);
+        });
+        lightboxNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navigateLightbox(1);
+        });
+
+        // Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (lightbox.classList.contains('active')) {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                } else if (e.key === 'ArrowLeft') {
+                    navigateLightbox(-1);
+                } else if (e.key === 'ArrowRight') {
+                    navigateLightbox(1);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
