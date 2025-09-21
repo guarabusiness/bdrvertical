@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bdrvertical.com/sitemap.xml
